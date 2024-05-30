@@ -47,6 +47,29 @@
   color: #888;
 }
 
+@media (max-height: 762px) {
+  .chat-container{
+    position: relative;
+    height: 700px;
+    width: 700px;
+  }
+  #root {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .chat-container{
+    position: relative;
+    height: 700px;
+    width: 550px;
+  }
+  #root {
+    padding: 1rem;
+  }
+}
+
+
 @media (max-width: 575.98px) {
   .chat-container{
     position: relative;
