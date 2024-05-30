@@ -91,7 +91,6 @@ function App() {
   return (
     <div className='App'>
       <div className="chat-container">
-        <img src={chatLogo} alt="ChatGPT Clone" style={{width: "50px"}}/>
         <MainContainer>
           <ChatContainer>
             <MessageList
